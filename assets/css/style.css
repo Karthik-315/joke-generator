@@ -1,0 +1,56 @@
+body {
+	background-color: rgb(206, 255, 255);
+	margin: 0;
+	padding: 0;
+	font-family: "Source Code Pro", monospace;
+}
+
+section {
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px rgba(134, 134, 134, 0.4);
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 200px;
+	padding: 20px;
+	text-align: center;
+}
+
+section h1 {
+	padding: 0;
+	margin: 0;
+	color: rgb(32, 173, 255);
+}
+
+.jokes-content {
+	font-size: 20px;
+	width: auto;
+	min-height: 100px;
+}
+
+section button {
+	padding: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	border: 5px solid white;
+	color: white;
+	background-color: black;
+	box-shadow: 5px 5px 10px rgba(165, 165, 165, 0.4);
+	font-family: "Source Code Pro", monospace;
+	cursor: pointer;
+}
+
+section button:hover {
+	border: 5px solid black;
+	color: black;
+	background-color: white;
+}
+
+section button:active {
+	transform: scale(0.85);
+	box-shadow: 0px;
+}
+
+section button:focus {
+	outline: 0;
+}
